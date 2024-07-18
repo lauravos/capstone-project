@@ -9,7 +9,7 @@ Data for this project was sourced from: https://www.kaggle.com/datasets/uom19034
 
 ##  Create a Project Virtual Environment
 ### Prerequisites
-Prior to setting up the virtual environment, you must have Python and pop installed
+Prior to setting up the virtual environment, you must have Python and pip installed
 ### Virtual Environment Setup
 1. Clone repository and navigate to project directory in VS Code.
 2. Create virtual environment: py -m venv .venv
