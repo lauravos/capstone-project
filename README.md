@@ -13,6 +13,17 @@ Prior to setting up the virtual environment, you must have Python and pip instal
 ### Virtual Environment Setup
 1. Clone repository and navigate to project directory in VS Code.
 2. Create virtual environment: py -m venv .venv
-3. Activate virtual environment: .venv\Scripts\activate
-4. Install dependencies: pip install -r requirements.txt
+~~~
+python -m venv .venv
+~~~
+  
+3. Activate virtual environment: 
+~~~
+.venv\Scripts\activate
+~~~
+   
+4. Install dependencies:
+~~~
+pip install -r requirements.txt
+~~~
 
