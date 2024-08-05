@@ -18,6 +18,7 @@ Data for this project was sourced from: [Sleep Health and Lifestyle Dataset](htt
 3. Exploratory Data Analysis (EDA)
     - EDA was conducted using Python in a Jupyter Notebook.
     - Analysis was conducted to determine features important to Quality of Sleep.
+    - Features found to have a strong relationship were visualized using scatter plots, bar charts, heat maps, and tables.
 4. Machine Learning
     - Predictive analysis was conducted using several types of linear regression modeling including linear regression and polynomial regression to the 3rd and 8th degrees.
     - The model was trained on the features Sleep Duration and Stress Level (determined during the EDA process) and performance was evaluated using R2 and RMSE values.
