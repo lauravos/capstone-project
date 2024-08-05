@@ -11,16 +11,17 @@ Data for this project was sourced from: [Sleep Health and Lifestyle Dataset](htt
 
 ## Project Steps:
 1. Data collection
-  - Data was collected from [Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data) and the CSV file was downloaded and imported into VS code for further use.
+    - Data was collected from [Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data) and the CSV file was downloaded and imported into VS code for further use.
 2. Data cleaning and preprocessing
-  - Initial data overview and cleaning was done using Excel, then Python in VS Code
-  - Inconsistent values were corrected and additional attributes added
+    - Initial data overview and cleaning was done using Excel, then Python in VS Code
+    - Inconsistent values were corrected and additional attributes added
 3. Exploratory Data Analysis (EDA)
-  - EDA was conducted using Python in a Jupyter Notebook.
-  - Analysis was conducted to determine features important to Quality of Sleep.
+    - EDA was conducted using Python in a Jupyter Notebook.
+    - Analysis was conducted to determine features important to Quality of Sleep.
 4. Machine Learning
-  - Predictive analysis was conducted using several types of linear regression modeling including linear regression and polynomial regression to the 3rd and 8th degrees.
-  - The model was trained on the features Sleep Duration and Stress Level (determined during the EDA process) and performance was evaluated using R2 and RMSE values.
+    - Predictive analysis was conducted using several types of linear regression modeling including linear regression and polynomial regression to the 3rd and 8th degrees.
+    - The model was trained on the features Sleep Duration and Stress Level (determined during the EDA process) and performance was evaluated using R2 and RMSE values.
+
    
 ## Features used for Analysis
 1. Person ID: A unique numeric identifier for each individual in the study
@@ -59,28 +60,27 @@ calculated from Physical Activity Level and Daily steps, or attributes 7 and 12,
 respectively (High, Medium, or Low).
 
 
-
-
 ## Key Results
 1. Correlation
-- Attributes with the highest correlation to Quality of Sleep were Duration of Sleep and Stress Level
+  - Attributes with the highest correlation to Quality of Sleep were Duration of Sleep and Stress Level
     ![Screenshot showing correlation matrix of numeric attributes](./Heatmap.png)
     
 2. Visualization of highest correlated attributes
-- Scatterplot showing positive linear relationship between Quality of Sleep vs Sleep Duration
+  - Scatterplot showing positive linear relationship between Quality of Sleep vs Sleep Duration
 ![Screenshot showing Quality of Sleep vs Sleep Duration scatterplot](./Scatter_Quality_vs_Duration.png)
 
   - Scatterplot showing negative linear relationship between Quality of Sleep vs Stress Level
 ![Screenshot showing Quality of Sleep vs Stress Level scatterplot](./Scatter_Quality_vs_Stress.png)
 
 3. Model Performance
-- Of the models used, Polynomial Regression to the 8th Degree performed the best, with high R2 and low RMSE for both features examined.
+  - Of the models used, Polynomial Regression to the 8th Degree performed the best, with high R2 and low RMSE for both features examined.
 ![Screenshot showing ML results](./ML_Results.png)
     
 
-
 ## Prerequisites
 Prior to setting up the virtual environment, you must have Python and pip installed.
+
+
 ## Virtual Environment Setup
 1. Clone repository and navigate to project directory in VS Code.
 2. Create virtual environment: py -m venv .venv
