@@ -5,7 +5,7 @@
 This project explores sleep health in humans by taking into account the various factors that may affect sleep quality, including health metrics, lifestyle, gender, and age. The project utilizes machine learning methods, specifically linear regression modeling, to help determine what plays an important role in quality of sleep. 
 
 The final report for this project was created using LaTex in Overleaf. 
-Overleaf Report: https://www.overleaf.com/read/xdknsvhdhnrs#ca4e7a 
+[Overleaf Report](https://www.overleaf.com/read/xdknsvhdhnrs#ca4e7a) 
 
 Data for this project was sourced from: [Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data)
 
@@ -23,7 +23,7 @@ Data for this project was sourced from: [Sleep Health and Lifestyle Dataset](htt
     - The model was trained on the features Sleep Duration and Stress Level (determined during the EDA process) and performance was evaluated using R2 and RMSE values.
 
    
-## Features used for Analysis
+## Features Used for Analysis
 1. Person ID: A unique numeric identifier for each individual in the study
 2. Gender: The gender of the individual studied (Male or Female).
 3. Age: The age of the individual in years (Ages range from 27-59).
