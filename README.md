@@ -63,17 +63,21 @@ respectively (High, Medium, or Low).
 ## Key Results
 1. Correlation
   - Attributes with the highest correlation to Quality of Sleep were Duration of Sleep and Stress Level
+    
     ![Screenshot showing correlation matrix of numeric attributes](./Heatmap.png)
     
 2. Visualization of highest correlated attributes
   - Scatterplot showing positive linear relationship between Quality of Sleep vs Sleep Duration
+    
 ![Screenshot showing Quality of Sleep vs Sleep Duration scatterplot](./Scatter_Quality_vs_Duration.png)
 
   - Scatterplot showing negative linear relationship between Quality of Sleep vs Stress Level
+    
 ![Screenshot showing Quality of Sleep vs Stress Level scatterplot](./Scatter_Quality_vs_Stress.png)
 
 3. Model Performance
-  - Of the models used, Polynomial Regression to the 8th Degree performed the best, with high R2 and low RMSE for both features examined.
+  - Of the models used, Polynomial Regression to the 8th Degree performed the best for both features, with high R2 and low RMSE for both features examined.
+    
 ![Screenshot showing ML results](./ML_Results.png)
     
 
