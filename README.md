@@ -1,15 +1,16 @@
-# capstone-project
-
-### Author: Laura Gagnon-Vos
-### Institution: Northwest Missouri State University, Maryville, MO
-### Last Updated: 08/07/2024
+# An Analysis of Sleep Health in Humans
+### Capstone Project 
+#### Author: Laura Gagnon-Vos
+#### Institution: Northwest Missouri State University, Maryville, MO
+#### Last Updated: 08/08/2024
 
 This project explores sleep health in humans by taking into account the various factors that may affect sleep quality, including health metrics, lifestyle, gender, and age. The project utilizes machine learning methods, specifically linear regression modeling, to help determine what plays an important role in quality of sleep. 
 
-The final report for this project was created using LaTex in Overleaf. 
+Data for this project was sourced from: [Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data)
+
+The project report was created using LaTeX in Overleaf and can be found at the following link: 
 [Overleaf Report](https://www.overleaf.com/read/xdknsvhdhnrs#ca4e7a) 
 
-Data for this project was sourced from: [Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data)
 
 ## Project Steps:
 1. Data collection
@@ -91,7 +92,7 @@ Prior to setting up the virtual environment, you must have Python and pip instal
 
 ## Virtual Environment Setup
 1. Clone repository and navigate to project directory in VS Code.
-2. Create virtual environment: py -m venv .venv
+2. Create virtual environment:
 ~~~
 python -m venv .venv
 ~~~
