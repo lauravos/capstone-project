@@ -1,6 +1,8 @@
 # capstone-project
 
-## Laura Gagnon-Vos
+### Author: Laura Gagnon-Vos
+### Institution: Northwest Missouri State University, Maryville, MO
+### Last Updated: 08/07/2024
 
 This project explores sleep health in humans by taking into account the various factors that may affect sleep quality, including health metrics, lifestyle, gender, and age. The project utilizes machine learning methods, specifically linear regression modeling, to help determine what plays an important role in quality of sleep. 
 
@@ -63,11 +65,11 @@ respectively (High, Medium, or Low).
 
 ## Key Results
 1. Correlation
-  - Attributes with the highest correlation to Quality of Sleep were Duration of Sleep and Stress Level
+  - Attributes with the greatest correlation to Quality of Sleep were Duration of Sleep (0.88) and Stress Level (-0.90)
     
     ![Screenshot showing correlation matrix of numeric attributes](./Heatmap.png)
     
-2. Visualization of highest correlated attributes
+2. Visualizations of Highest Correlated Attributes
   - Scatterplot showing positive linear relationship between Quality of Sleep vs Sleep Duration
     
 ![Screenshot showing Quality of Sleep vs Sleep Duration scatterplot](./Scatter_Quality_vs_Duration.png)
@@ -76,7 +78,8 @@ respectively (High, Medium, or Low).
     
 ![Screenshot showing Quality of Sleep vs Stress Level scatterplot](./Scatter_Quality_vs_Stress.png)
 
-3. Model Performance
+3. Machine Learning Model Performance
+  - Features for modeling were selected from the attributes with the highest correlation coefficients.
   - Of the models used, Polynomial Regression to the 8th Degree performed the best for both features, with high R2 and low RMSE for both features examined.
     
 ![Screenshot showing ML results](./ML_Results.png)
